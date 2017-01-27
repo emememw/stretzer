@@ -1,8 +1,11 @@
 {
   "name": "stretzer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "markdown bundler + pdf converter",
   "main": "src/main.js",
+	"bin": {
+		"stretzer": "src/main.js"
+	},
   "keywords": ["markdown", "pdf", "converter", "bundle", "bundler"],
   "author": "markus-wi",
   "license": "WTFPL",
